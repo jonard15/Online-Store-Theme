@@ -1,0 +1,102 @@
+.post{
+	margin-top:-220px;
+	margin-left:200px;
+	width:30%;
+}
+.post h5{
+	font:18px georgia;
+	font-weight:bold;
+	text-align:center;
+}
+#boxLine .post p{
+	font:10px georgia;
+	line-height:2;
+	text-align:left;
+}
+#boxLine .post .paragraph{
+	font:10px georgia;
+	line-height:2;
+	text-align:left;
+	border-top: 1px solid #5d5757;
+}
+#boxLine {
+	position: absolute; 
+	top: 200px; 
+	left: 250px;
+	background: url(../images/boxLine.png)top no-repeat; 
+}
+.post a{
+	font:10px georgia;
+	text-align:left;
+	text-transform:uppercase;
+	color:blue;
+	text-decoration: none;
+
+	
+}
+.picture{
+	margin-top:60px;
+    margin-left:40px;
+}
+.otherPost{
+	margin-top:-900px;
+	margin-left:400px;
+}
+.otherPost h5{
+	font:18px georgia;
+	font-weight:bold;
+	text-align:left;
+}
+.otherPost a{
+	font:10px georgia;
+	line-height:2;
+	text-align:left;
+	text-decoration: none;
+	color:blue;
+}
+@keyframes slider{
+	0{
+		left:0;
+	}
+	20%{
+	left:0;	
+	}
+	25%{
+		left:-100%;
+	}
+	45%{
+		left:-100%
+	}
+	50%{
+		left:-200%;
+	}
+	70%{
+		left:-200%;
+	}
+	75%{
+		left:-300%;
+	}
+	95%{
+		left:-300%;
+	}
+	100%{
+		left:-400%;
+	}
+	}
+	#slider{
+		overflow:hidden;
+	}
+	#slider figure img {
+		width:20%;
+		float:left;
+	}
+	#slider figure{
+		position:relative;
+		width:500%;
+		margin:0;
+		left:0;
+		text-align:left;
+		font-size:0;
+		animation:15s slider infinite;
+	}
+	
